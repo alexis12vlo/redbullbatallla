@@ -1,0 +1,1005 @@
+.Centro{
+	width: 100%;
+	height: 600vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: repeating-linear-gradient(#880d3f, #880d3f 1000px, #120b37 3000px, #880d3f 5000px);
+}
+.Centro_Red_Bull_Batalla{
+	margin-top: 100px;
+	width: 90%;
+	height: 100vh;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	background-position: center;
+	background-size:1170px;
+	transition: 1s;
+	background-repeat: no-repeat;
+	background-image: url('./batalla.jpg');
+}
+.Centro_Red_Bull_Batalla:hover{
+	transition: 1s;
+	background-size: 1300px;
+
+
+
+}
+.Centro_Red_Bull_Batalla_Container{
+	width: 92.5%;
+	height: 60%;
+}
+.Centro_Red_Bull_Batalla_Container_Text{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	div{
+		h1{
+			font-size: 50px;
+			color: #FFFFFF;
+
+		}
+
+	}
+}
+.Centro_Red_Bull_Batalla_Container_Text_P{
+	width: 52%;
+	margin-top: -35px;
+	p{
+		text-align:initial;
+		color: #FFFFFF;
+		font-size: 22px;
+	}
+}
+.Centro_Red_Bull_Batalla_Container_Text_Bottoms{
+	width: 40%;
+	height: 65px;
+	margin-top: 35px;
+	display: flex;
+	align-items: center;
+	button{
+		border-style: none;
+		border-radius: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 38px;
+		padding-right: 38px;
+		background-color: #DB0A40;
+		color: #FFFFFF;
+		margin-right:40px;
+	}
+	button:hover{
+		background-color: #C3093B;
+
+
+		
+	}
+	h2{
+		color: #91969B;
+		font-size: 21px;
+	}
+}
+
+.Centro_Noticias_Destacadas{
+	margin-top: 100px;
+	width: 92.5%;
+}
+.Centro_Noticias_Destacadas_Container{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+.Centro_Noticias_Destacadas_Container_Imagenes{
+	width: 63%;
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_H1{
+	width:100% ;
+	display: flex;
+	align-items: center;
+	height: 8%;
+	h1{
+
+			margin-left: 20px;
+			font-size: 40px;
+			color: #FFFFFF;
+			font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+			font-weight: 700;
+			line-height: 10px;
+		}
+	
+	
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Border{
+	
+		width: 7px;
+		height: 100%;
+		background-image: linear-gradient(#062e78, #d2003c);
+
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Cards{
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-around;
+
+	height: 90%;
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Card{
+
+	display: flex;
+	width: 90%;
+	height: 28%;
+	justify-content: space-between;
+
+
+}
+
+.Centro_Noticias_Destacadas_Container_Escucha{
+	width: 53%;
+	display: flex;
+	justify-content: center;
+	border-top-radius: 15px;
+
+
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container{
+	width: 90%;
+	background-color: #FFFFFF;
+
+
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+	border-radius: 15px;
+	height: 87vh;
+}
+.Images{	
+	width: 100%;
+	height: 350px;
+	border-top-radius: 15px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	background-position: center;
+	background-size:500px;
+	transition: 1s;
+	background-repeat: no-repeat;
+	background-image: url('./crescendo-cover.jpg');
+	
+}
+.Images:hover{
+	background-size:550px;
+
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Card_Image{
+	width: 38%;
+	border-top-radius: 15px;
+
+	img{
+		width: 85%;
+		border-radius: 12px;
+	}
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Card_P{
+	width: 56%;
+	height: 100%;
+	display: flex;
+	margin: 0px;
+	align-items: start;
+
+	p{
+		margin: 0px;
+		color: #FFFFFF;
+		font-size:18px;
+		text-align: start;
+		font-weight: 700;
+	}
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container_Text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container_Text_H1{
+	display: flex;
+	margin-top: -30px;
+	justify-content: center;
+	width:85%;
+	h1{
+		text-align: start;
+		font-size: 23px;
+		color: #050505;
+		font-weight: 600;
+
+	}
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container_Text_P{
+	display: flex;
+	width: 85%;
+	margin-top: -15px;
+	p{
+		text-align: start;
+		font-size: 18px;
+		color: #a0a1a1;
+		font-weight: 300;
+	}
+}
+
+
+
+
+.Centro_Eventos{
+	margin-top: 200px;
+	width:100%;
+	height: 120vh;
+	background-color: #00162b;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	flex-direction: column;
+	align-items: center;
+	transition: 3s;
+	
+
+
+}
+.ImageEventos{
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('./redecuador.jpg');
+	
+
+}
+.ImageEventosContainer{
+	width: 100%;
+	height:100%;
+	background: linear-gradient(-180deg,rgba(0,22,43,0)0,rgba(0,22,43,.37) 44%,#00162b 100%);
+
+}
+.Centro_Eventos_Container{
+	width:100%;
+	height: 700px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 3s;
+}
+.Flechas{
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	z-index: 1;
+
+
+}
+.FlechaLeft{
+	margin: 0px;
+	width: 60px;
+	height: 60px;
+	color: #FFFFFF;
+	background-color:rgba(0, 15, 30, 0.4);
+
+}
+.FlechaLeft:hover{
+	background-color:rgba(0, 15, 30, 0.9);
+
+}
+.FlechaRigth:hover{
+	background-color:rgba(0, 15, 30, 0.9);
+
+}
+.FlechaRigth{
+	margin: 0px;
+	width: 60px;
+	height: 60px;
+	color: #FFFFFF;
+	background-color:rgba(0, 15, 30, 0.4);
+
+}
+
+.Titulo{
+	margin: 0;
+	margin-top:-100px;
+	height: 5%;
+	padding-bottom: 300px;
+	padding-left: 100px;
+	margin-bottom:-500px;
+	transform: translateY(-300px);
+}
+// .Centro_Eventos_Container:hover{
+// 	transform: translateX(300px);
+// 	transition: 3s;
+// }
+.RedBullBatalla{
+	margin-top: -50px;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	overflow: hidden;
+
+}
+.RedBullBatalla_Container{
+	width:90%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	overflow: hidden;
+
+}
+.RedBullBatalla_Container_Logo{
+	position: absolute;
+	display: flex;
+	width: 70%;
+	justify-content: end;
+	align-items:center;
+	margin-left:280px;
+	margin-top: 180px;
+	height: 100%;
+
+
+	img{
+		padding-top:0px;
+		padding-right: -50px;
+		width: 400px;
+		transform: scale(1.21);
+		height:500px;
+
+	}
+}
+.RedBullBatalla_Container_Titulo{
+	width: 50%;
+	display: flex;
+	justify-content: start;
+	margin: 0;
+	height: 23%;
+	h1{
+		text-align: start;
+		margin: 0;
+		line-height: 80px;
+		font-size: 80px;
+		font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+
+	}
+}
+.RedBullBatalla_Container_Divisor{
+	width: 100%;
+	height: 3px;
+	border-radius: 20px;
+	background-color: #F6F3F5;
+
+}
+.RedBullBatalla_Container_Paises{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h2{
+		font-size: 20px;
+		font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+		font-weight: 300;
+	}
+}
+.RedBullBatalla_Container_P{
+	width: 65%;
+	p{
+		text-align: start;
+	}
+}
+
+.VerMas{
+	width: 100%;
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+}
+.VerMas_Container{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+	border-style: solid;
+	border-width: 26px;
+    border-image: linear-gradient(90deg, #062e78 0%, #d2003c 100%) 1;
+}
+.VerMas_Container_Titulo{
+	h1{
+		font-size: 45px;
+		font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+		color: #FFFFFF;
+	}
+}
+.VerMas_Container_Logos{
+	display: flex;
+	button{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+
+		text-align: center;
+		padding-top:10px ;
+		padding-bottom: 10px;
+		padding-left: 65px;
+		padding-right: 65px;
+		border-radius: 10px;
+		border-style: none;
+		margin: 5px;
+		color: #FFFFFF;
+	}
+}
+.Logos{
+	width: 25px;
+	height: 25px;
+	padding-right: 3px;
+	color: #FFFFFF;
+}
+.Face{
+	
+	background-color: #4E69A2;
+}
+.Insta{
+	background-color:#125688;
+}
+.Twi{
+	background-color: #55ACEE;
+}
+
+header{
+	margin-top: 150px;
+	padding-top: 50px;
+	width: 100%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+	background-color: #00162B;
+
+
+}
+.Header_Container{
+	display: flex;
+
+	width: 90%;
+	justify-content: space-between;
+	padding-right: 0px;
+	margin-right: 0px;
+	color: #FFFFFF;
+
+}
+.P{
+	display: flex;
+	align-items: center;
+	padding-right: 0px;
+
+	p{
+
+		text-align: start;
+		margin-bottom: 0px;
+		padding-right: 0px;
+	}
+}
+@media (max-width: 800px) {
+
+	.Centro_Red_Bull_Batalla{
+	margin-top: 80px;
+	width: 90%;
+	height: 70vh;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	background-position: center;
+	background-size:830px;
+	transition: 1s;
+	background-repeat: no-repeat;
+	background-image: url('./batalla.jpg');
+}
+.Centro_Red_Bull_Batalla:hover{
+	transition: 1s;
+	background-size: 1000px;
+}
+.Centro_Red_Bull_Batalla_Container{
+	width: 92.5%;
+	height: 45%;
+}
+.Centro_Red_Bull_Batalla_Container_Text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	div{
+		width: 80%;
+
+		h1{
+			font-size: 25px;
+			color: #FFFFFF;
+
+		}
+
+	}
+}
+.Centro_Red_Bull_Batalla_Container_Text_P{
+	width: 52%;
+	margin-top: -35px;
+	display: none;
+	p{
+		text-align:initial;
+		color: #FFFFFF;
+		font-size: 22px;
+	}
+}
+.Centro_Red_Bull_Batalla_Container_Text_Bottoms{
+	width: 40%;
+	height: 65px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	button{
+		border-style: none;
+		border-radius: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right:20px;
+		background-color: #DB0A40;
+		color: #FFFFFF;
+		margin-right:0px;
+	}
+	button:hover{
+		background-color: #C3093B;
+
+
+		
+	}
+	h2{
+		color: #91969B;
+		font-size: 18px;
+	}
+}
+
+.Centro_Noticias_Destacadas{
+	margin-top: 100px;
+	width: 92.5%;
+}
+.Centro_Noticias_Destacadas_Container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+.Centro_Noticias_Destacadas_Container_Imagenes{
+	width: 100%;
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_H1{
+	width:70% ;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+
+	height: 13%;
+	h1{
+			text-align: start;
+			margin-left: 20px;
+			font-size: 30px;
+			color: #FFFFFF;
+			font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+			font-weight: 700;
+			line-height: 30px;
+		}
+	
+	
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Border{
+	
+		width: 100px;
+		height: 100%;
+		background-image: linear-gradient(#062e78, #d2003c);
+
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Cards{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-around;
+
+	height: 75%;
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Card{
+
+	display: flex;
+	width: 100%;
+	height: 17%;
+	justify-content: space-between;
+	padding-top: 10px;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color:rgba(255,255,255,0.2);
+	margin: 0;
+
+}
+
+.Centro_Noticias_Destacadas_Container_Escucha{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-top-radius: 15px;
+
+
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container{
+	width: 100%;
+	background-color: #FFFFFF;
+
+
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 70px;
+	margin-bottom: 0px;
+	border-radius: 15px;
+	height: 60vh;
+}
+.Images{	
+	width: 100%;
+	height: 350px;
+	border-top-radius: 15px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	background-position: center;
+	background-size:380px;
+	transition: 1s;
+	background-repeat: no-repeat;
+	background-image: url('./crescendo-cover.jpg');
+	
+}
+.Images:hover{
+	background-size:420px;
+
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Card_Image{
+	width: 38%;
+	height: 70%;
+	border-top-radius: 15px;
+
+	img{
+		width: 95%;
+		border-radius: 12px;
+	}
+}
+.Centro_Noticias_Destacadas_Container_Imagenes_Card_P{
+	width: 56%;
+	height: 100%;
+	display: flex;
+	margin: 0px;
+	align-items: start;
+
+	p{
+		margin: 0px;
+		color: #FFFFFF;
+		font-size:15px;
+		text-align: start;
+		font-weight: 300;
+	}
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container_Text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container_Text_H1{
+	display: flex;
+	margin-top: -50px;
+	justify-content: center;
+	width:85%;
+	h1{
+		text-align: start;
+		font-size: 20px;
+		color: #050505;
+		font-weight: 600;
+
+	}
+}
+.Centro_Noticias_Destacadas_Container_Escucha_Container_Text_P{
+	display: flex;
+	width: 85%;
+	margin-top: -15px;
+	p{
+		text-align: start;
+		font-size: 15px;
+		color: #a0a1a1;
+		font-weight: 300;
+	}
+}
+.Centro_Eventos{
+	margin-top: 350px;
+	width:100%;
+	height: 80vh;
+	background-color: #00162b;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	flex-direction: column;
+	align-items: center;
+	transition: 3s;
+	
+
+
+}
+.ImageEventos{
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('./redecuador.jpg');
+	
+
+}
+.ImageEventosContainer{
+	width: 100%;
+	height:100%;
+	background: linear-gradient(-180deg,rgba(0,22,43,0)0,rgba(0,22,43,.37) 44%,#00162b 100%);
+
+}
+.Centro_Eventos_Container{
+	width:100%;
+	height: 700px;
+	margin-bottom: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+}
+.Flechas{
+	margin-top: 170px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	z-index: 1;
+
+
+}
+.FlechaLeft{
+	margin: 0px;
+	height: 40px;
+	color: #FFFFFF;
+	background-color:rgba(0, 15, 30, 0.4);
+
+}
+.FlechaLeft:hover{
+	background-color:rgba(0, 15, 30, 0.9);
+
+}
+.FlechaRigth:hover{
+	background-color:rgba(0, 15, 30, 0.9);
+
+}
+.FlechaRigth{
+	margin: 0px;
+	width: 40px;
+	height: 60px;
+	color: #FFFFFF;
+	background-color:rgba(0, 15, 30, 0.4);
+
+}
+
+.Titulo{
+	margin: 0;
+	width: 40%;
+	margin-top:-100px;
+	height: 5%;
+	padding-bottom: 300px;
+	padding-left: 0px;
+	margin-bottom:-500px;
+	transform: translate(-80px,-180px);
+
+}
+.RedBullBatalla{
+	margin-top: 100px;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	overflow: hidden;
+
+}
+.RedBullBatalla_Container{
+	width:90%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	overflow: hidden;
+
+}
+.RedBullBatalla_Container_Logo{
+	position: absolute;
+	display: flex;
+	width: 70%;
+	justify-content:start;
+	align-items:center;
+	margin-left:80px;
+	margin-top: -280px;
+	height: 100%;
+	z-index:0;
+
+
+	img{
+		padding-top:0px;
+		padding-right: 0px;
+		width: 260px;
+		transform: scale(1);
+		height:380px;
+
+	}
+}
+.RedBullBatalla_Container_Titulo{
+	width: 80%;
+	display: flex;
+	justify-content: start;
+	margin: 0;
+	height: 12%;
+	z-index: 1;
+	position: relative;
+	h1{
+		text-align: start;
+		margin: 0;
+		line-height: 45px;
+		font-size: 50px;
+		font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+
+	}
+}
+.RedBullBatalla_Container_Divisor{
+	width: 100%;
+	height: 3px;
+	border-radius: 20px;
+	background-color: #F6F3F5;
+
+}
+.RedBullBatalla_Container_Paises{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	h2{
+		font-size: 16px;
+		text-align: start;
+		font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+		font-weight: 300;
+	}
+}
+.RedBullBatalla_Container_P{
+	width: 100%;
+	p{	
+		font-size: 14px;
+		text-align: start;
+	}
+}
+
+.VerMas{
+	width:80%;
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	margin-top: -100px;
+}
+.VerMas_Container{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+	border-style: solid;
+	border-width: 26px;
+    border-image: linear-gradient(90deg, #062e78 0%, #d2003c 100%) 1;
+}
+.VerMas_Container_Titulo{
+	h1{
+		font-size: 26px;
+		font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+		color: #FFFFFF;
+	}
+}
+.VerMas_Container_Logos{
+	display: flex;
+	flex-direction: column;
+	button{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+
+		text-align: center;
+		padding-top:10px ;
+		padding-bottom: 10px;
+		padding-left: 65px;
+		padding-right: 65px;
+		border-radius: 10px;
+		border-style: none;
+		margin: 5px;
+		color: #FFFFFF;
+	}
+}
+.Logos{
+	width: 25px;
+	height: 25px;
+	padding-right: 3px;
+	color: #FFFFFF;
+}
+.Face{
+	
+	background-color: #4E69A2;
+}
+.Insta{
+	background-color:#125688;
+}
+.Twi{
+	background-color: #55ACEE;
+}
+
+header{
+	margin-top: 150px;
+	padding-top: 50px;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+	background-color: #00162B;
+
+
+}
+.Header_Container{
+	display: flex;
+
+	width: 90%;
+	flex-direction: column;
+	padding-right: 0px;
+	margin-right: 0px;
+	color: #FFFFFF;
+
+}
+.P{
+	display: flex;
+	align-items: center;
+	padding-right: 0px;
+
+	p{
+
+		text-align: start;
+		margin-bottom: 0px;
+		padding-right: 0px;
+	}
+}
+.Header_Container_Productos{
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+}

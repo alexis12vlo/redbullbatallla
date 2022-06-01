@@ -1,0 +1,173 @@
+.Paises{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.Paises_Container1{
+	width:300px;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
+
+}
+.Paises_Container1{
+	color: #FFFFFF;
+	h1{
+		font-size: 52px;
+			font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+
+		font-weight: 300;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	h2{
+		font-weight: 300;
+
+		margin: 0;
+		font-size: 33px;
+		margin-bottom: 50px;
+	}
+	h3{
+		margin-top: 0;
+		font-size: 25px;
+		font-weight: 300;
+
+	}
+}
+
+.Paises_Container2{
+	color: #FFFFFF;
+
+	width: 600px;
+	height: 100%;
+	border-style: solid;
+	border-color:rgba(255, 255, 255, 0.2) ;
+	border-width: 0px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h1{
+		width: 100%;
+		font-size: 35px;
+		font-weight: 300;
+
+	}
+}
+
+.Paises_Container2_Image{
+	width: 120px;
+	height: 150px;
+	img{
+		width: 100%;
+	}
+}
+.BanderaCiudad{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h3{
+		font-weight: 300;
+		
+		margin-left: 15px;
+	}
+}
+@media (max-width: 800px) {
+
+	.Paises{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.Paises_Container1{
+	width:100px;
+	height: 230px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 200px;
+	margin-bottom: 20px;
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
+
+}
+.Paises_Container1{
+	color: #FFFFFF;
+	h1{
+		font-size: 52px;
+			font-family: Adieu, "Bull Text", Helvetica, sans-serif;
+
+		font-weight: 300;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	h2{
+		font-weight: 300;
+
+		margin: 0;
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+	h3{
+		display: none;
+		margin-top: 0;
+		font-size: 25px;
+		font-weight: 300;
+
+	}
+}
+
+.Paises_Container2{
+	color: #FFFFFF;
+
+	width: 300px;
+	height: 100%;
+	border-style: solid;
+	border-color:rgba(255, 255, 255, 0.2) ;
+	border-width: 0px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h1{
+		width: 100%;
+		font-size: 25px;
+		font-weight: 300;
+
+	}
+}
+
+.Paises_Container2_Image{
+	width: 120px;
+	height: 150px;
+	img{
+		width: 100%;
+	}
+}
+.BanderaCiudad{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h3{
+		font-weight: 300;
+		
+		margin-left: 15px;
+	}
+}
+
+}

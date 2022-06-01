@@ -1,0 +1,518 @@
+$azul:#001c39;
+$azul_claro:#1A334D;
+.VideoHeader{
+	position:absolute;
+	margin-top:0px;
+	z-index: -1;
+	padding: 0;
+	width: 100%;
+	
+}
+.Header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+.Header_Login:hover ~ .Header_Text{
+
+	height: 91vh;
+
+}
+.Header_Login:hover{
+	height:9vh;
+	.Persona{
+	transition: 0.5s;
+
+	border-radius: 80px;
+	padding: 8px;
+	width: 30px;
+	height: 20px;
+	}
+	.Lupa{
+	transition: 0.5s;
+
+	border-radius: 80px;
+	padding: 8px;
+	width: 30px;
+	height: 20px;
+	margin-right: 15px;
+	}
+	.Menu_Logo{
+	transition: 0.5s;
+
+	border-radius: 80px;
+	padding: 8px;
+	width: 30px;
+	height: 20px;
+	}
+
+	}
+.Header_Login{
+	color:rgba(255,255,255,.6);
+	width: 100%;
+	height:6vh;
+	transition-duration: 0.5s;
+
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+    background-color: $azul;
+}
+.Image{
+	width: 35px;
+}
+.MundoRedBull{
+	margin-left:180px ;
+	display: flex;
+	padding: 0px;
+	padding-right: 0px;
+	padding-top: 7px;
+	border-radius: 20px;
+	border-style: none;
+	color: #FFFFFF;
+	transition: 0.1s;
+
+	background-color: $azul;
+}
+.MundoRedBull_P{
+	opacity: 0;
+	padding-left: 3px;
+	
+
+}
+.MundoRedBull:hover{
+	display: flex;
+	margin-right: 120px;
+	justify-content: center;
+	align-items:start;
+	padding: 6px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+	border-radius: 30px;
+	border-style: none;
+	color: #FFFFFF;
+
+
+	background-color: $azul_claro;
+	.MundoRedBull_P{
+	opacity: 1;
+	display: flex;
+	font-size: 14px;
+	transition: 0.3s;
+	padding-top: 1px;
+	padding-left: 12px;
+	}
+	
+
+
+}
+
+.Persona{
+	padding: 7px;
+	padding-top: 15px;
+	width: 20px;
+	height: 18px;
+}
+.Lupa{
+	width: 20px;
+	height: 18px;
+	padding: 7px;
+	margin-right: 20px;
+	margin-left: 10px;
+
+}
+.Persona:hover ,.Menu_Logo:hover, .Lupa:hover{
+	background-color: $azul_claro;
+	padding: 8px;
+	padding-top: 20px;
+
+	color: #FFFFFF;
+	border-radius: 20px;
+
+}
+
+.Menu_Logo{
+	padding: 20px;
+
+}
+.Header_Text{
+	width: 100%;
+	height: 94vh;
+	display: flex;
+	flex-direction: column;
+	transition: 1.5s;
+	border-radius: 10px;
+	background:  linear-gradient(to bottom,rgba(0,22,43,0),rgba(0,22,43,.38) 44%,rgba(0,22,43,.67));
+}
+.Header_Nav{
+	display: flex;
+	align-items: initial;
+	margin-top: 20px;
+	
+
+
+}
+.Header_Nav_App{
+	display: flex;
+	align-items: start;
+	justify-content:center;
+	width: 80%;
+
+
+
+}
+.Header_Nav_Logo{
+	display: flex;
+	justify-content: start;
+	width: 50%;
+	height: 80px;
+
+
+	img{
+		width: 90px;
+		margin-left: 30px;
+	}
+}
+.Nav_Menu{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: initial;
+	margin-left: 100px;
+}
+.Menu{
+	display: flex;
+	justify-content: center;
+	align-items: initial;
+}
+.Menu ul{
+	display: flex;
+	justify-content:initial;
+	align-items: start;
+	width: 100%;
+	list-style: none;
+	background-color:rgba(0,15,30,.4);
+	padding: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 20px;
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+
+
+}
+.Menu ul li{
+		padding: 7px;
+	padding-top: 5px;
+	padding-bottom: 6px;
+
+
+
+	}
+.Menu ul li a{
+	text-decoration: none;
+	padding: 7px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-size: 18px;
+
+
+}	
+.Menu ul li a:hover{
+	background-color: rgba(0,15,30,.6);
+
+}
+.Header_Nav_Button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+
+}
+.Button_App{
+	font-size: 13px;
+	padding: 12px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #F61A4F;
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+.Button_App:hover{
+	background-color: #FF3364;
+}
+.Amburguesa{
+	padding: 9px;
+	border-radius: 20px;
+	background-color: rgba(0,15,30,.4);
+	color:rgba(255,255,255,.9);
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 1px;
+}
+.Amburguesa:hover{
+	background-color: rgba(0,15,30,.6);
+
+}
+.Header_Logo{
+	width: 280px;
+	margin-left: 80px;
+	margin-top: 20px;
+	img{
+		width: 280px;
+	}
+}
+.Header_Titulo{
+	width: 100%;
+	display: flex;
+	h1{
+		font-size: 70px;
+		margin-left: 80px;
+		color: #FFFFFF;
+	}
+}
+.Nav_2{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+}
+.Nav_2 .Menu ul li a{
+
+
+
+}
+.Nav_2 .Menu ul li a:hover{
+	margin-right: 18px;
+	margin-left: 18px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background: none;
+	border-radius: 0px;
+	border-color: #E11010;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+
+}
+
+
+
+.Amburguesa_Nav{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	div{
+		nav{
+			ul{
+				list-style: none;
+				li{
+					margin: 20px;
+					
+				}
+				a{	
+					font-family: 'Big Shoulders Text', cursive;
+					text-decoration: none;
+					border-style: solid;
+					border-width: 0px;
+					
+					font-size: 35px;
+					color: #FFFFFF;
+				}
+				a:hover{
+					border-bottom-width:4px;
+					border-color: #D30000;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 800px) {
+
+  .Header_Nav_App{
+	align-items: start;
+	justify-content:end;
+	width: 80%;
+	margin-right: 12px;
+	}
+	.Nav_2{
+	display:none;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+	opacity: 0;
+	}
+	.Header_Login{
+	color:rgba(255,255,255,.6);
+	width: 100%;
+	height:6vh;
+	transition-duration: 0.5s;
+
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+    background-color: $azul;
+	}
+	.MundoRedBull{
+	margin-left:30px ;
+	display: flex;
+	padding: 0px;
+	padding-right: 0px;
+	padding-top: 4px;
+	border-radius: 20px;
+	border-style: none;
+	color: #FFFFFF;
+	transition: 0.1s;
+
+	background-color: $azul;
+	}
+	.MundoRedBull_P{
+	opacity: 0;
+	display: none;
+	padding-left: 3px;
+	
+
+}
+.Lupa{
+	width: 17px;
+	height: 18px;
+	padding: 7px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.Persona{
+	padding-bottom: 10px;
+
+}
+.MundoRedBull:hover{
+	display: flex;
+	margin-right: 0px;
+	justify-content: center;
+	align-items:start;
+	padding: 6px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	border-radius: 30px;
+	border-style: none;
+	color: #FFFFFF;
+
+
+	background-color: $azul_claro;
+	.MundoRedBull_P{
+	opacity: 1;
+	display: flex;
+	font-size: 12px;
+	transition: 0.3s;
+	padding-top: 1px;
+	padding-left: 8px;
+	}
+	
+
+
+}
+.Header_Nav_Logo{
+	display: flex;
+	justify-content: start;
+	width: 20%;
+	height: 65px;
+
+
+	img{
+		width: 90px;
+		margin-left: 20px;
+	}
+}
+.Nav_Menu{
+	display: none;
+}
+.Button_App{
+	display: none;
+}
+.Header_Nav_Button{
+	width: 18%;
+}
+.Header_Nav{
+	display: flex;
+	align-items: initial;
+	margin-top: 15px;
+	justify-content: space-between;
+	width: 100%;
+	
+
+
+}
+.Amburguesa_Nav{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	div{
+				nav{
+			ul{	
+				text-align: center;
+				list-style: none;
+				padding: 0px;
+				li{
+					margin: 13px;
+					
+				}
+				a{	
+					font-family: 'Big Shoulders Text', cursive;
+					text-decoration: none;
+					border-style: solid;
+					border-width: 0px;
+					
+					font-size: 30px;
+					color: #FFFFFF;
+				}
+				a:hover{
+					border-bottom-width:4px;
+					border-color: #D30000;
+				}
+			}
+		}
+	}
+}
+.Header_Logo{
+	margin: 0px;
+
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	img{
+		width: 180px;
+	}
+}
+.Header_Text{
+	display: flex;
+	align-items: center;
+	height: 500px;
+	border-radius: 0px;
+}
+.Header_Titulo{
+	width: 90%;
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	h1{
+		font-size: 40px;
+		margin-left: 0px;
+		color: #FFFFFF;
+	}
+}
+}
